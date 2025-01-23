@@ -5,17 +5,25 @@ author: Marte Bidne
 # Your github username
 github: martedb
 # Something funny and descriptive
+<<<<<<< HEAD
 tagline: The answer is
+=======
+tagline: testing
+>>>>>>> refs/remotes/origin/main
 # Your email, if you so wish
 email: martedingstadbidne@gmail.com
 # Your github site, usually <github username>.github.io
 url: martedb.github.io
 doc:
+  libraries:
+    JNW_EX_SKY130A:
+      - JNW_EX
   # Make docs
   libraries:
   #   <library>:
     JNW_EX_SKY130A:
       - JNW_EX
 sim:
+  JNW_EX: make typical
   # <simdir>: command
   JNW_EX: make typical
